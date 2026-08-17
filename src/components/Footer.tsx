@@ -57,9 +57,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-t border-border mt-8 pt-5">
-          <p className="text-center text-xs text-muted-foreground">© 2026 ModeMuse. Concept storefront — no real transactions.</p>
+        <div className="border-t border-border mt-8 pt-5 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <p className="text-xs text-muted-foreground">© 2026 ModeMuse. Concept storefront — no real transactions.</p>
+          <p className="text-xs text-muted-foreground">
+            Created by <strong className="font-semibold text-foreground">Bhawesh Mishra</strong> ·{' '}
+            <a href="mailto:mishrabhawesh123@gmail.com" className="hover:text-primary transition-colors underline underline-offset-2">
+              mishrabhawesh123@gmail.com
+            </a>
+          </p>
         </div>
+
       </footer>
     </>
   );
