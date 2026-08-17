@@ -61,7 +61,7 @@ const Footer = () => {
           <p className="text-xs text-muted-foreground">© 2026 ModeMuse. Concept storefront — no real transactions.</p>
           <p className="text-xs text-muted-foreground">
             Created by <strong className="font-semibold text-foreground">Bhawesh Mishra</strong> ·{' '}
-            <a href="mailto:mishrabhawesh123@gmail.com" className="hover:text-primary transition-colors underline underline-offset-2">
+            <a href="mailto:mishrabhawesh123@gmail.com" title="Email the creator" className="hover:text-primary transition-colors underline underline-offset-2">
               mishrabhawesh123@gmail.com
             </a>
           </p>
