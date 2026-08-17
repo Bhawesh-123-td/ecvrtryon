@@ -29,7 +29,28 @@ const About = () => (
         Our mission is to reduce product returns and create a smarter, more interactive shopping experience.
       </p>
     </section>
+
+    <section className="glass-surface !rounded-3xl p-8 mt-5 mb-10">
+      <p className="eyebrow">Creator</p>
+      <div className="flex items-center gap-4 mt-3 flex-wrap">
+        <span className="grid place-items-center w-14 h-14 rounded-2xl bg-primary/10 text-primary font-display text-xl">BM</span>
+        <div>
+          <h3 className="font-display text-2xl tracking-tight">Bhawesh Mishra</h3>
+          <p className="text-sm text-muted-foreground">Designer &amp; Developer — ModeMuse</p>
+        </div>
+      </div>
+      <p className="text-muted-foreground mt-4 max-w-2xl text-sm leading-relaxed">
+        Designed and built this concept storefront, including the virtual try-on studio, product catalog, and checkout experience.
+      </p>
+      <a
+        href="mailto:mishrabhawesh123@gmail.com"
+        className="badge-tag inline-flex items-center gap-2 mt-4 text-xs hover:scale-105 transition-transform"
+      >
+        ✉️ mishrabhawesh123@gmail.com
+      </a>
+    </section>
   </div>
+
 );
 
 export default About;
